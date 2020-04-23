@@ -11,7 +11,7 @@
 	br = branch
 	df = diff
 	cl = clone
-	unstatge = reset HEAD --
+	unstage = reset HEAD --
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	hi = log --graph --pretty=format:'%Cred%h%Creset %Cgreen%ad%Creset | %s%C(yellow)%d%Creset %C(bold blue)[%an]%Creset' --date=short
 	last = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -1 HEAD
